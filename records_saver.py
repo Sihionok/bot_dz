@@ -26,12 +26,13 @@ def load_top(filename):
 #if main
 top = {122:1337,12:2131243241}
 save_top(top,'top_file.txt')
+save_igroki(igrpki,"top_file.txt")
 
 print("ПРОБЛЕМА")
 print("при запуске этого файла, это сообщение должно выводится")
 print("а при запуске бота, это сообщение выводится не должно")
 
 top = load_top('top_file.txt')
-print('результат',top)
+print('результат',top,igroki)
 
 
