@@ -102,7 +102,7 @@ for event in longpoll.listen():
                 users[user_id] = {'status':'main'}
             if users[user_id]['status'] == 'main':
                 if text == 'об авторе':
-                    send_message(user_id, 'Damir',  keyboard = back_keyboard )
+                    send_message(user_id, 'https://vk.com/psevdoworld',  keyboard = back_keyboard )
                 elif text == 'игра':
                     send_message(user_id, 'GAME',  keyboard = game_keyboard )
                     users[user_id]['status'] = 'gaming_1'
